@@ -1,0 +1,668 @@
+#hmodif{
+    border: 3px solid black;
+    width: auto;
+    margin: 15px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+}
+#headSect{
+    display: flex;
+    justify-content: center;
+}
+#secondo_section{
+    margin-top: 40px;
+}
+#icon_rang{
+    border: 1px solid transparent;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    padding: 10px 10px 10px 14px;
+    margin: 15px 25px 10px 25px;
+    box-shadow: 1px 5px 12px gray;
+}
+#icon_rangSpe{
+    border: 1px solid transparent;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    padding: 10px 10px 10px 14px;
+    margin: 0px 25px 10px 25px;
+    box-shadow: 1px 5px 12px gray;
+}
+#ecri_rang{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#flexRange{
+    display: flex;
+    flex-direction: row;
+}
+.icon_color{
+    color: red;
+}
+#rangeme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon_color_2{
+    color: yellow;
+}
+.icon_color_3{
+color: red;
+}
+.alignType_1{
+    padding-top: 15px;
+}
+.alignType_2{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.alignType_3{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.alignType_4{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.alignType_5{
+    padding-left: 10px;
+}
+
+.alignType_6{
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.alignType_7{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.alignType_8 {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.alignType_9{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.alignType_10{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.alignRangEns{
+    margin-bottom: 15px;
+}
+
+.alignRangEns_2{
+    margin-bottom: 30px;
+}
+
+.alignRangEns_3{
+    margin-bottom: 40px;
+}
+
+#tres_section{
+    margin-top: 9.875vw;
+    margin-left: 20.737vw;
+}
+
+#resiChamb{
+    width: 65.833vw;
+    height: 39.5vw;
+}
+#imgMarbre {
+    width: 65.833vw;
+    height: 39.5vw;
+}
+.imgDub1{
+    position: absolute;
+    bottom: 3.292vw;
+    right: 16.458vw;
+}
+.imgDub2{
+    position: relative;
+}
+#quatros_section{
+    margin-top: 100px;
+}
+#hDeuxQuatros{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.qtc{
+    text-align: center; 
+}
+#imgOrange{
+    width: 40vw;
+    margin-top: 13.167vw;
+}
+.carT{
+    border: 1px solid transparent;
+    width: 480px;
+    height: 188px;
+    padding: 35px 60px 20px 60px; 
+    margin: 20px;
+}
+.colMarg{
+    flex: 1;
+    padding: 20px;
+}
+.carteDisp{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid transparent;
+    box-shadow: -2px 3px 5px #a6a6a6;
+    margin: 20px;
+    position: relative;
+}
+.carteDisp::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    opacity: 0.9;
+}
+.titCard{
+padding-bottom: 20px;
+}
+.butDecLir{
+    color: white;
+    border: 1px solid transparent;
+    background-color: black;
+    padding: 10px 60px;
+    border-radius: 30px 30px 30px 0;
+    margin-top: auto;
+}
+#blcQst_1{
+    display: flex;
+}
+#blcQst_2{
+    display: flex;
+}
+#blcQst_3{
+    display: flex;
+}
+#qtcRelat{
+    position: relative;
+}
+#partqtc{
+    position: absolute;
+    top: 10px;
+    left: 165px;
+} 
+#RTL {
+    margin: 16.458vw auto auto auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 700px;
+    background-color: black;
+    color: white;
+}
+#vTAvis{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 400px;
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    display: flex;
+    justify-content: center; /* Centrer les éléments horizontalement */
+    align-items: center; /* Centrer les éléments verticalement */
+}
+.aviRadui{
+    width: 43%;
+}
+#pixProfil {
+    width: 2vw;
+    height: 2vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 3px;
+}
+ 
+#pixProfil img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.enviRan{
+    display: flex;
+    flex-direction: row;
+}
+.davir{
+    display: flex;
+    flex-direction: row;
+}
+.trai{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin: 10px auto;
+}
+.mads{
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+.padsd{
+    margin: auto;
+}   
+
+.agencCard {
+    height: 260px;
+    max-width: 315px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 3.555vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.dpsz{
+    border-bottom: 1.5px solid black;
+    padding: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.badze{
+    font-weight: bold;
+}
+.opaer{
+    opacity: 70%;
+    font-size: 12px;
+}
+.avisAreng{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.conterner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    margin: 0;
+}
+.btnTransf{
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    border: transparent;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 5px 25px;
+}
+.btnTransf a{
+    color: white;
+    text-decoration: none;
+}
+
+#sectionFooter {
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#sectionFooter a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact {
+    width: 30%;
+}
+
+.logo-container {
+    width: 30%;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 100px; 
+    height: auto;
+}
+.social i {
+    font-size: 30px; 
+}
+.gkiImg{
+    width: 7.571vw;
+    height: 14.483vw;
+}
+#hTrF{
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1400px) {
+    #imgOrange {
+        width: 48vw;
+    }
+    #partqtc {
+        left: 75px; 
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #imgOrange {
+        width: 50vw;
+    }
+    #partqtc {
+        left: auto;
+    }
+}
+@media screen and (max-width: 1201px){
+    #imgOrange {
+        width: 55vw;
+    }
+    .colMarg {
+        padding: 15px;
+    }
+    .carT {
+        width: 38vw;
+    }
+    .titCard {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    #imgOrange {
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 1100px){
+    #imgOrange {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    #hmodif {
+        width: auto;
+    }
+    #partqtc {
+        left: auto;
+    }
+    #imgOrange {
+        width: 75vw;
+    }
+    .carteDisp {
+        margin: 15px;
+    }
+    .colMarg {
+        padding: 0px;
+    }
+    .carT {
+        width: 40.516vw;
+        height: 25.569vw;
+    }
+    .titCard {
+        padding-bottom: 20px;
+        font-size: 19px;
+    }
+    .agencCard {
+        padding: 15px;
+        margin: 0 2.555vw;
+    }
+}
+
+
+@media screen and (max-width: 872px) {
+    #imgOrange {
+        width: 80vw;
+    }
+    .titCard {
+        font-size: 15px;
+    }
+    #RTL {
+        margin: 20.458vw auto auto auto;
+    }
+    .agencCard {
+        padding: 15px;
+        margin: 0 2.555vw;
+        height: 230px;
+    }
+    .cartTex{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 766px) {
+    #imgOrange {
+        width: 80vw;
+    }
+
+    .carT {
+        width: 38.516vw;
+        height: 24.569vw;
+    }
+    #RTL {
+        margin: 30.458vw auto auto auto;
+        width: 90vw;
+    }
+    #ecri_rang {
+        font-size: 12px;
+    }
+    .cartTex{
+        font-size: 12px;
+    }
+    .opaer {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 701px) {
+    .carT {
+        height: 28.569vw;
+    }
+    #RTL {
+        margin: 30.458vw auto auto auto;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .titCard {
+        font-size: 13px;
+    }
+    #imgOrange {
+        width: 85vw;
+    }    
+    #ecri_rang {
+        font-size: 11px;
+    }
+    .carT {
+        width: 35.516vw;
+        padding: 35px 30px 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #hDeuxQuatros {
+        font-size: 20px;
+    }
+    #icon_rang {
+        width: 35px;
+        height: 35px;
+        padding: 5px 7px 6px 9px;
+        margin: 15px 10px 10px 15px;
+    }
+    #icon_rangSpe {
+        width: 35px;
+        height: 35px;
+        padding: 5px 7px 6px 9px;        
+        margin: 15px 10px 10px 15px;
+    }
+
+}
+
+@media screen and (max-width: 641px) {
+    .opaer {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #icon_rang {
+        margin: 10px 20px 5px 15px;
+        padding: 5px 10px 10px 10px;
+    }
+    .alignType_2 {
+        padding-left: 0px;
+    }
+    .alignRangEns_2 {
+        margin-bottom: 0px;
+    }
+    #ecri_rang {
+        font-size: 10px;
+    }
+    .alignType_3 {
+        padding-left: 0px;
+    }
+    .alignType_4 {
+        padding-left: 0px; 
+    }
+    .alignType_7 {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    #flexRange {
+        align-items: stretch;
+    }
+    .alignType_5 {
+        padding-left: 0px;
+    }
+    .alignType_6 {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .alignType_8 {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .alignType_9 {
+        padding-top: 15px;
+        padding-left: 5px;
+    }
+    #icon_rangSpe {
+        width: 35px;
+        height: 35px;
+        padding: 5px 10px 10px 9px;
+        margin: 0px 10px 5px 10px;
+    }    
+    .avisAreng {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #vTAvis {
+        height: auto;
+    }
+    .agencCard {
+        padding: 15px;
+        margin: 35px;
+        height: 210px;
+    }
+    .cartTex {
+        font-size: 15px;
+    }
+    .opaer {
+        font-size: 12px;
+    }
+    .butDecLir {
+        padding: 5px 45px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .footer-content {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact {
+        width: auto;
+        text-align: center;
+    }
+    .gkiImg {
+        width: 11.571vw;
+        height: 20.483vw;
+        margin: 4vw;
+    }
+    .social {
+        width: auto; 
+    }
+    .hTitre {
+        padding-bottom: 2vw;
+    }
+    .maiSpa{
+        padding-bottom: 1vw;
+    }
+    .titCard {
+        font-size: 11px;
+    }
+    #imgOrange {
+        width: 95vw;
+        margin-top: 22.167vw;
+    }
+    .carT {
+        width: 30.516vw;
+        padding: 35px 30px 20px 30px;
+}
+.rangArangem{
+    display: flex;
+    justify-content: space-around;
+}
+#flexRange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rangeme {
+    display: flex;
+    flex-direction: column;
+}
+.alignType_6 {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+}

@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a:active{
+    color: white;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+#Ns-conta{
+    background-color: white;
+    padding: 20px 50px 14px 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: -2px 3px 5px #a6a6a6;
+    border: 1px solid white;
+    border-radius: 15px 0px 15px 15px;
+    cursor: pointer ;
+}
+#Ns-conta a{
+    color: black;
+    text-decoration: none;
+}
+#gki_img{
+    width: 7.571vw;
+    height: 14.483vw;
+}
+#puce_n{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#puce_n a{
+    color: white;
+}
+#box-social-link{
+    width: 150px;
+    height: 17px;
+    border: 1px solid transparent;
+    padding:17px 30px 17px 30px;
+    background: radial-gradient(ellipse at left bottom, #DF3809 , #FF9901);
+    border-radius: 15px 15px 15px 0px;
+    box-shadow: -2px 3px 5px #a6a6a6;
+    cursor: pointer;
+}
+li{
+    justify-content: space-around;
+}
+#justC{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.twoBoxMarg{
+    margin-top: 5%;
+}
+.ps-re{
+    position: relative;
+    z-index: 4;
+}
+#lineEnd{
+ border-bottom: 1px solid white;
+ top: 12.179vw;
+ position: absolute;
+ width: 100%;
+ box-shadow: 0px 3px 2px gray;
+ z-index: 2;
+}
+#seconde_section{
+    margin-top: 50px;
+}
+h1{
+    font-size: 45px; 
+    font-family: 'Exo 2', sans-serif;
+}
+#police_h1{
+    font-family: 'Oswald', sans-serif;
+}
+.trait{
+    border-bottom: 5px solid black ;
+    padding: 10px;
+    width: 14.154vw;
+    margin-left: 42.462vw;
+}
+#tres_section{
+    margin-top: 50px;
+}
+#box_first{
+    border: 1px solid white;
+    width: 26.333vw;
+    text-align: center;
+    box-shadow: 0px 3px 10px gray;
+    margin-bottom: 50px;
+    border-radius: 2px;
+}
+.hDeuxPart {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+.hDeuxRez {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#emt_awes{
+    font-size: 30px;
+}
+#colr-emt {
+    font-size: 9.217vw;
+    background: -webkit-radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin-bottom: 41px;
+}
+#colr-cad {
+    font-size: 8.229vw;
+    background: -webkit-radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#btn_inf {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#btn_inf a{
+    color: white;
+    text-decoration: none;
+}
+#ou{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 13.167vw;
+}
+#trai_two{
+    width: 45px;
+    height: 3px;
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+}
+#box_two{
+    border: 1px solid white;
+    width: 26.333vw;
+    text-align: center;
+    box-shadow: 0px 3px 10px gray;
+    margin-bottom: 50px;
+    border-radius: 2px;
+}
+#btn_trov {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#btn_trov a{
+    color: white;
+    text-decoration: none;
+}
+#misF{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#sectionFooter {
+    background: radial-gradient(ellipse at left bottom, #DF3809, #FF9901);
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#sectionFooter a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact {
+    width: 30%;
+}
+
+.logo-container {
+    width: 30%;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 100px; 
+    height: auto;
+}
+.social i {
+    font-size: 30px; 
+}
+.gkiImg{
+    width: 7.571vw;
+    height: 14.483vw;
+}
+#hTrF{
+    padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 994px) {
+    #gki_img {
+        width: 9.571vw;
+        height: 16.483vw;
+    }
+    .twoBoxMarg {
+        margin-top: 4%;
+    }
+    .hDeuxPart {
+        font-size: 25px;
+    }
+    .hDeuxRez {
+        font-size: 25px;
+        margin-top: 45px;
+    }
+    #box_two{
+        width: 28.333vw; 
+    }
+    #box_first{
+        width: 28.333vw; 
+    }
+    #btn_inf {
+        font-size: 15px;
+    }
+    #btn_trov {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    #colr-cad {
+        margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 872px) {
+    .twoBoxMarg {
+        margin-top: 3%;
+    }
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    #Ns-conta {
+        padding: 10px 10px 10px 10px;
+        font-size: 10px;
+    }
+    #box-social-link {
+        width: 115px;
+        padding: 10px 0px 5px 0px;
+        font-size: 10px;
+    }
+    #misF {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #box_first {
+        width: 70.333vw;
+        margin-bottom: 0px;
+    }
+    #box_two {
+        width: 70.333vw;
+    }
+    #ou { 
+        margin-top: 0px; 
+    }
+    #boxOu{
+        margin: 8vw;
+    }
+    #colr-emt {
+        font-size: 12vw;
+  }
+  #colr-cad {
+    font-size: 12vw;
+}
+#lineEnd {
+    top: 14.179vw;
+}
+#gki_img {
+    width: 11.571vw;
+    height: 20.483vw;
+}
+/* ------------------------------------------ */
+.footer-content {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact {
+    width: auto;
+    text-align: center;
+}
+.gkiImg {
+    width: 11.571vw;
+    height: 20.483vw;
+    margin: 4vw;
+}
+.social {
+    width: auto; 
+}
+.hTitre {
+    padding-bottom: 2vw;
+}
+.maiSpa{
+    padding-bottom: 1vw;
+}
+
+/* ------------------------------------------ */
+  }
+
+
